@@ -1,0 +1,140 @@
+V "GNAT Lib v10"
+M P W=b
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U program%b		program.adb		64b54963 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20210408115627 76789da1 ada%s
+D a-except.ads		20210408115627 a7106115 ada.exceptions%s
+D a-inteio.ads		20210408115627 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210408115627 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210408115627 119b8fb3 ada.streams%s
+D a-tags.ads		20210408115627 491b781d ada.tags%s
+D a-textio.ads		20210408115627 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210408115627 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210408115627 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210408115627 5ab55268 interfaces%s
+D i-cstrea.ads		20210408115627 e53d8b8e interfaces.c_streams%s
+D program.adb		20220923082122 3c0a15aa program%b
+D system.ads		20210408115627 4635ec04 system%s
+D s-conca2.ads		20210408115627 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20210408115627 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210408115627 54135002 system.exception_table%s
+D s-ficobl.ads		20210408115627 078245e4 system.file_control_block%s
+D s-parame.ads		20210408115627 48ec542b system.parameters%s
+D s-secsta.ads		20210408115627 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210408115627 a7318a92 system.soft_links%s
+D s-stache.ads		20210408115627 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210408115627 09bd3940 system.standard_library%s
+D s-stoele.ads		20210408115627 2dc34a04 system.storage_elements%s
+D s-traent.ads		20210408115627 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210408115627 34867c83 system.unsigned_types%s
+D s-valint.ads		20210408115627 b5ff6963 system.val_int%s
+D s-wchcon.ads		20210408115627 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [program standard 5 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 12|3r6 3r31 4r6 4r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 12|3w10 3r35
+X 7 a-textio.ads
+57K13*Text_IO 727e16 12|4w10 4r35
+86I12*Field{integer}
+264U14*New_Line 12|57s7 110s7 189s10
+273U14*Skip_Line 12|40s16 52s7 58s7
+282V13*End_Of_Line{boolean} 12|70s14
+381U14*Get 12|69s10
+392U14*Put 12|56s7
+465U14*Put 12|23s10 25s10 27s10 31s16 33s16 39s16 49s7 54s7 101s7 104s7 107s7
+. 109s7 170s13 176s13 185s10 187s10 197s13 199s13 205s19 207s19 209s19 211s19
+. 213s19
+508U14*Put_Line 12|48s7 100s7 103s7 106s7 222s7 237s10
+548X4*Data_Error 12|38r18
+X 8 a-tiinio.ads
+59U14*Get 12|29s13[3|18] 50s7[3|18] 51s7[3|18]
+80U14*Put 12|24s10[3|18] 26s10[3|18] 55s7[3|18] 173s10[3|18] 186s10[3|18]
+. 198s13[3|18]
+82i7 Width{7|86I12} 12|24r20[3|18] 26r20[3|18] 55r19[3|18] 173r27[3|18] 186r18[3|18]
+. 198r21[3|18]
+X 12 program.adb
+5U11*program 5b11 240l5 240t12
+7R9 Date_Type 9e14 11r44 138r40 152r30 163r29
+8i7 Year{integer} 141r15 146r27 157m12 167r23
+8i13 Month{integer} 143r18 147r46 158m12 167r34
+8i20 Day{integer} 147r15 159m12 167r46
+11A9 Date_Arr_Type(7R9)<integer> 182r36 193r37 220r15
+13A9 Days(integer)<integer> 130r62 139r17
+15X4 Length_Error 84r16 204r21 236r12
+15X18 Format_Error 120r22 124r22 206r21
+15X32 Month_Error 144r16 210r21
+15X45 Year_Error 142r16 208r21
+15X57 Day_Error 148r16 212r21
+19U14 Get_Value_Safe 19b14 19>30 19>35 19<53 43l8 43t22 53s7
+19i30 Min{integer} 24r15 30r24
+19i35 Max{integer} 26r15 32r27
+19i53 Value{integer} 29m18 30r16 32r19
+45U14 Part1 45b14 59l8 59t13 231s4
+46i7 Min{integer} 50m12 53r23
+46i12 Max{integer} 51m12 53r28
+46i17 Value{integer} 53m33 55r12
+63U14 Input 63b14 63<21 63<40 79l8 79t13 91s7
+63a21 Item{string} 67r16 70r50 71m13 74m13
+63i40 Index{integer} 67m7 70r42 71r19 74r19 76m13 76r29
+64e7 C{character} 69m15 71r29 73r16 74r29
+65b7 IsInput{boolean} 70r30 73r28 75m13
+81U14 Length_Check 81b14 81>28 81>46 86l8 86t20 92s7
+81a28 Item{string} 83r20
+81i46 Counter{integer} 83r10
+88U14 Get 88b14 88<19 93l8 93t11 102s7 105s7 108s7 155s7
+88a19 Item{string} 91m14 92r21
+89i7 Counter{integer} 91m20 92r27
+95U14 Part2 95b14 111l8 111t13 233s7
+96a7 S_1{string} 102m12 103r35
+97a7 S_2{string} 105m12 106r35
+98a7 S_3{string} 108m12 109r30
+115U14 Format_Check 115b14 115>28 128l8 128t20 156s7
+115a28 Item{string} 117r16 119r21 123r21
+117i11 I{integer} 118r13 118r28 118r43 119r27 122r16 122r25 123r27
+130U14 Set_Leap_Year 130b14 130>29 130<48 136l8 136t21 146s7
+130i29 Year{integer} 132r12 132r37 132r60
+130a48 Day_Arr{13A9} 134m10
+138U14 Validity_Check 138b14 138>30 150l8 150t22 160s7
+138r30 Item{7R9} 141r10 143r13 146r22 147r10 147r41
+139a7 Day_Arr{13A9} 146m33 147r32
+152U14 Get 152b14 152<19 161l8 161t11 201s16
+152r19 Item{7R9} 157m7 158m7 159m7 160r23
+153a7 Date_Str{string} 155m12 156r21 157r36 158r36 159r36
+163U14 Put 163b14 163>19 180l8 180t11 188s10
+163r19 Item{7R9} 167r18 167r29 167r41
+164A12 Date_Elements(integer)<integer> 165r16
+165a7 Date_E{164A12} 167m7 168r16 169r29 173r15 175r18
+168i11 I{integer} 169r13 169r37 173r23 175r13
+182U14 Put_Dates 182b14 182>25 191l8 191t17 224s7
+182a25 Dates{11A9} 184r16 188r15
+184i11 I{integer} 186r15 188r22
+193U14 Get_Dates 193b14 193<25 217l8 217t17 223s7
+193a25 Dates{11A9} 195r16 201m21 201r21
+195i11 I{integer} 198r18 201r28
+219U14 Part3 219b14 225l8 225t13 234s7
+220a7 Dates{11A9} 223m18 224r18
+

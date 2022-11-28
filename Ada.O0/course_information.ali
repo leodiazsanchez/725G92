@@ -1,0 +1,56 @@
+V "GNAT Lib v10"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U course_information%b	course_information.adb	aa2f255c NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20210408115627 76789da1 ada%s
+D a-except.ads		20210408115627 a7106115 ada.exceptions%s
+D a-ioexce.ads		20210408115627 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210408115627 119b8fb3 ada.streams%s
+D a-tags.ads		20210408115627 491b781d ada.tags%s
+D a-textio.ads		20210408115627 aef4d56d ada.text_io%s
+D a-unccon.ads		20210408115627 0e9b276f ada.unchecked_conversion%s
+D course_information.adb  20220830094406 04dbf031 course_information%b
+D interfac.ads		20210408115627 5ab55268 interfaces%s
+D i-cstrea.ads		20210408115627 e53d8b8e interfaces.c_streams%s
+D system.ads		20210408115627 4635ec04 system%s
+D s-crtl.ads		20210408115627 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210408115627 54135002 system.exception_table%s
+D s-ficobl.ads		20210408115627 078245e4 system.file_control_block%s
+D s-parame.ads		20210408115627 48ec542b system.parameters%s
+D s-secsta.ads		20210408115627 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210408115627 a7318a92 system.soft_links%s
+D s-stache.ads		20210408115627 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210408115627 09bd3940 system.standard_library%s
+D s-stoele.ads		20210408115627 2dc34a04 system.storage_elements%s
+D s-traent.ads		20210408115627 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210408115627 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210408115627 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [course_information standard 3 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 8|1r6 1r45
+X 6 a-textio.ads
+57K13*Text_IO 727e16 8|1w10 1r49
+264U14*New_Line 8|8s3 16s3 30s3 37s3 45s3 52s3 59s3 67s3 73s3 82s3 87s3 92s3
+. 99s3 126s3 131s3 137s3 143s3 152s3 160s3
+508U14*Put_Line 8|6s3 7s3 10s3 11s3 12s3 13s3 14s3 15s3 18s3 19s3 20s3 21s3
+. 22s3 23s3 24s3 25s3 26s3 27s3 28s3 29s3 32s3 33s3 34s3 35s3 36s3 39s3 40s3
+. 41s3 42s3 43s3 44s3 47s3 48s3 49s3 50s3 51s3 54s3 55s3 56s3 57s3 58s3 61s3
+. 62s3 63s3 64s3 65s3 66s3 69s3 70s3 71s3 72s3 75s3 76s3 77s3 78s3 79s3 80s3
+. 81s3 84s3 85s3 86s3 89s3 90s3 91s3 94s3 95s3 96s3 97s3 98s3 101s3 102s3
+. 103s3 104s3 105s3 106s3 107s3 108s3 109s3 110s3 111s3 112s3 113s3 114s3
+. 115s3 116s3 117s3 118s3 119s3 120s3 121s3 122s3 123s3 124s3 125s3 128s3
+. 129s3 130s3 133s3 134s3 135s3 136s3 139s3 140s3 141s3 142s3 145s3 146s3
+. 147s3 148s3 149s3 150s3 151s3 154s3 155s3 156s3 157s3 158s3 159s3 162s3
+. 163s3 164s3 165s3 166s3 167s3
+X 8 course_information.adb
+3U11*Course_Information 3b11 168l5 168t23
+

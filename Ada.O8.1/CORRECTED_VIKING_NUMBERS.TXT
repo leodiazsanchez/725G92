@@ -1,0 +1,9 @@
+|Inläst sträng       |Korrigerat vikingskt tal       |Värde     |
+=================================================================
+|abc                 |cba                            |        20|
+|abcdefg             |gfedcba                        |      1563|
+|aaaaaaaaaaaaaaaaaaaa|cba                            |        20|
+|cba                 |                               |        20|
+|ga                  |                               |      1025|
+|fgff                |ggdccaaaaa                     |      2119|
+=================================================================

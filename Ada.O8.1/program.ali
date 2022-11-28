@@ -1,0 +1,125 @@
+V "GNAT Lib v10"
+M P W=b
+P SS ZX
+
+RN
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U program%b		program.adb		43c2ace5 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20210408115627 76789da1 ada%s
+D a-comlin.ads		20210408115627 4aa66568 ada.command_line%s
+D a-except.ads		20210408115627 a7106115 ada.exceptions%s
+D a-inteio.ads		20210408115627 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210408115627 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210408115627 119b8fb3 ada.streams%s
+D a-tags.ads		20210408115627 491b781d ada.tags%s
+D a-textio.ads		20210408115627 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210408115627 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210408115627 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210408115627 5ab55268 interfaces%s
+D i-cstrea.ads		20210408115627 e53d8b8e interfaces.c_streams%s
+D program.adb		20221005114526 51db9544 program%b
+D system.ads		20210408115627 4635ec04 system%s
+D s-conca2.ads		20210408115627 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20210408115627 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210408115627 54135002 system.exception_table%s
+D s-ficobl.ads		20210408115627 078245e4 system.file_control_block%s
+D s-parame.ads		20210408115627 48ec542b system.parameters%s
+D s-secsta.ads		20210408115627 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210408115627 a7318a92 system.soft_links%s
+D s-stache.ads		20210408115627 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210408115627 09bd3940 system.standard_library%s
+D s-stoele.ads		20210408115627 2dc34a04 system.storage_elements%s
+D s-traent.ads		20210408115627 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210408115627 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210408115627 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [program standard 6 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 13|2r6 2r23 3r6 3r31 4r6 4r28
+X 2 a-comlin.ads
+36K13*Command_Line 144e21 13|4w10 4r32
+39V13*Argument_Count{natural} 13|152s7
+52V13*Argument{string} 13|153s14
+62V13*Command_Name{string} 13|157s11
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[9|46] 13|3w10 3r35
+X 8 a-textio.ads
+57K13*Text_IO 727e16 13|2w10 2r27
+64P9*File_Type 13|72r40 94r42 100r40 121r23
+66n23*In_File{66E9} 13|127r19
+66n32*Out_File{66E9} 13|128r22
+86I12*Field{integer}
+99U14*Create 13|128s7
+114U14*Open 13|127s7
+129U14*Close 13|147s7 148s7
+258U14*New_Line 13|91s7
+264U14*New_Line 13|111s7
+312V13*End_Of_File{boolean} 13|132s17
+459U14*Put 13|80s7 81s7 82s7 84s10 86s10 88s7 90s7
+465U14*Put 13|109s7 117s7 156s7 157s7 158s7
+471U14*Get_Line 13|133s10
+498U14*Put_Line 13|96s7 97s7 102s7
+508U14*Put_Line 13|155s7
+X 9 a-tiinio.ads
+68U14*Put 13|89s7[4|18]
+71i7 Width{8|86I12} 13|89r38[4|18]
+80U14*Put 13|110s7[4|18]
+82i7 Width{8|86I12} 13|110r16[4|18]
+X 13 program.adb
+6U11*program 6b11 160t4
+8A9 Nums(integer)<character> 10r23 16r28
+10a4 Numbers{8A9} 28r27 36r19 38r22 40r22 42r23 44r23 46r23 48r23 64r27
+12V13 IsViking{boolean} 12b13 12>23 21t7 134s13
+12a23 Str{string} 15r16 16r18
+15i11 I{integer} 16r22
+23V13 Calculate_Value{integer} 23b13 23>29 31t7 56s26 89s16 137s16 138s32
+23a29 Str{string} 27r16 28r35
+25i7 Value{integer} 28m10 28r19 30r14
+27i11 I{integer} 28r39
+33U14 Correct_Value 33b14 33>29 34<29 51t7 62s10
+33i29 Value{integer} 36r10 38r13 40r13 42r14 44r14 46r14 48r14
+34e29 C{character} 37m10 39m10 41m10 43m10 45m10 47m10 49m10
+53V13 Correct_String{string} 53b13 53>29 70t7 83s10 86s19 139s31
+53a29 Str{string} 56r42
+55a7 S{string} 57r26 60m7 63m10 69r14
+56i7 Value{integer} 62r24 64m10 64r19 66r20
+57i7 Index{integer} 63r12 65m10 65r19
+58e7 C{character} 62m30 63r22 64r35
+72U14 Insert_Line 72b14 72=26 73>26 92t7 135s13
+72p26 File{8|64P9} 80r11 81r11 82r11 84r14 86r14 88r11 89r11 90r11 91r16
+73a26 Str{string} 77r16 78r18 83r25 83r30 83r41 83r53 86r34 89r32
+74a7 Separator{string} 80r16 82r16 88r16 90r16
+75a7 S{string} 78m10 81r16
+77i11 I{integer} 78r12 78r22
+94U14 Put_File_Begining 94b14 94>32 98t7 130s7
+94p32 File{8|64P9} 96r16 97r16
+100U14 Put_File_Ending 100b14 100>30 103t7 144s7
+100p30 File{8|64P9} 102r16
+105U14 Put_Biggest 105b14 105>26 106>26 118t7 145s7
+105i26 Int{integer} 110r11
+106a26 Str{string} 112r16 113r13 117r44 117r48
+107i7 Counter{integer} 114m13 114r24 117r59
+112i11 I{integer} 113r17
+120U14 Viking 120b14 120>22 149t7 153s7
+120a22 File{string} 127r28
+121p7 Input{8|64P9} 127m12 127r12 132r29 133r19 147m13 147r13
+121p14 Output{8|64P9} 128m14 128r14 130r25 135m25 135r25 144r23 148m13 148r13
+122a7 S{string} 133m25 134r22 135r32 137r32 138r48 139r46
+123a7 Biggest_Str{string} 139m16 145r31
+124i7 L{integer} 133m27 134r27 135r37 137r37 138r53 139r51
+125i7 Biggest_Int{integer} 137r43 138m16 145r19
+
