@@ -62,9 +62,10 @@ package body Sorted_List is
    
    procedure Delete(List : in out List_Type) is
    begin
-      
-      Free(List);
-      
+      if not Empty(List) then
+      	Delete(List.Next);
+      	Free(List);
+      end if;
    end;
 
    procedure Insert(List : in out List_Type;
